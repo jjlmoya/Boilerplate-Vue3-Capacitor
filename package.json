@@ -1,5 +1,5 @@
 {
-    "name": "let-me-party",
+    "name": "boilerplate-vue3-capacitor",
     "version": "0.0.1",
     "private": true,
     "scripts": {
@@ -17,7 +17,7 @@
     "author": "jjlmoya",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/jjlmoya/let-me-party.git"
+        "url": "git+https://github.com/jjlmoya/Boilerplate-Vue3-Capacitor.git"
     },
     "dependencies": {
         "@capacitor/cli": "^2.4.5",
@@ -53,5 +53,5 @@
         "last 2 versions",
         "not dead"
     ],
-    "homepage": "https://github.com/jjlmoya/let-me-party#readme"
+    "homepage": "https://github.com/jjlmoya/Boilerplate-Vue3-Capacitor#readme"
 }

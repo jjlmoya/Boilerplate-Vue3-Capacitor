@@ -1,6 +1,6 @@
 {
-  "appId": "com.letmeparty.app",
-  "appName": "letmeparty",
+  "appId": "com.boilerplate.app",
+  "appName": "boilerplate-vue3-capacitor",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "dist",
