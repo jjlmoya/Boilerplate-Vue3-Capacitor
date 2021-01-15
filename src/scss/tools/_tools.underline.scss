@@ -1,0 +1,12 @@
+@mixin underline ($color: currentColor) {
+  text-decoration: none;
+  background-image: linear-gradient($color, $color);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 0.05em;
+  transition: background-size 0.3s;
+}
+
+@mixin underline-hover () {
+  background-size: 100% 0.05em;
+}

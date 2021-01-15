@@ -1,0 +1,8 @@
+@mixin core {
+  --is-mobile: "true";
+  --space-notch: 35px;
+
+  @include breakpoint($bp) {
+    --is-mobile: "false";
+  }
+}

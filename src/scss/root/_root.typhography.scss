@@ -1,0 +1,9 @@
+@mixin typhography {
+  --font-family: 'MarkPro', sans-serif;
+  --font-size: #{em(16px)};
+  --font-weight: 400;
+
+  @include breakpoint(360px down) {
+    --font-size: #{em(14px)};
+  }
+}

@@ -1,0 +1,23 @@
+@import "root/root.core";
+@import "root/root.z-index";
+@import "root/root.colors";
+@import "root/root.typhography";
+@import "root/root.radiuses";
+@import "root/root.spaces";
+@import "root/root.shadows";
+@import "root/root.ionic";
+@import "root/root.plyr";
+
+:root {
+  @include core;
+  @include z-index;
+  @include colors;
+  @include typhography;
+  @include radiuses;
+  @include spaces;
+  @include shadows;
+
+  // Vendor variables
+  @include plyr;
+  @include ionic;
+}
